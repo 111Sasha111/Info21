@@ -1,5 +1,3 @@
--- part1.sql
-
 -- Создание перечисления для статуса проверки
 CREATE TYPE check_status AS ENUM ('Start', 'Success', 'Failure');
 
